@@ -11,7 +11,7 @@ from selenium.webdriver.firefox.options import Options
 options = Options()
 #options.headless = True
 options.headless = False
-
+print("Browser is NOT Headless")
 #..................	V E R Y   I M P O R T A N T   M E S S A G E   B E L O W  ..........
 ###....The 'pytest' framework execution (THIS) file, along with all functions defined within it 'MUST' start with 'test_'  
 #@pytest.fixture  #....Default fixture setup...Note: This module gets called every time its invoked as a parameter in our function calls(
