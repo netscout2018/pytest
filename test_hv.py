@@ -9,8 +9,8 @@ from selenium import webdriver
 ###################
 from selenium.webdriver.firefox.options import Options
 options = Options()
-options.headless = True
-#options.headless = False
+#options.headless = True
+options.headless = False
 
 #..................	V E R Y   I M P O R T A N T   M E S S A G E   B E L O W  ..........
 ###....The 'pytest' framework execution (THIS) file, along with all functions defined within it 'MUST' start with 'test_'  
